@@ -21,8 +21,6 @@ ext {
 
 android {
     compileSdkVersion 28
-
-
     defaultConfig {
         // If you're planning to change up the package name, ensure you have read the readme
         // thoroughly!
@@ -65,6 +63,7 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
+    buildToolsVersion '27.0.3'
 }
 
 dependencies {
